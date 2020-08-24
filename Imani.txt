@@ -1,0 +1,16 @@
+md SoftDevI
+cd SoftDevI
+md Unit01
+cd Unit01
+notepad file01.txt
+notepad file02.txt
+md Assignment01
+cd Assignment01
+md Imani
+cd Imani
+Move-Item -Path C:\User\SoftDevI\Unit01\file02.txt -Destination C:\User\SoftDevI\Unit01\Assignment01\Imani
+notepad file02.txt
+cd Unit01
+Push-Location C:\User\SoftDevI\Unit01
+rm .\Assignment01\
+Y
