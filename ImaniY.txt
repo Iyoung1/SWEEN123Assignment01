@@ -1,1 +1,14 @@
-
+md SoftDevI
+cd SoftDevI
+md Unit01
+cd Unit01
+notepad file01.txt
+cp file01.txt file02.txt
+md Assignment01
+cd Assigment01
+md Imani
+mv C:\Users\13138\SoftDevI\Unit01\file02.txt C:\Users\13138\SoftDevI\Unit01\Assignment01\Imani\
+cd Imani
+notepad file02.txt
+cd ..\..\
+rm .\Assignment01\
